@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Wedding Catalog Link Extractor",
+  "version": "1.0.0",
+  "description": "Ekstensi cerdas untuk mengekstrak semua link preview template undangan (https://satumomen.com/preview/*), nama tema, dan thumbnail, lalu menyimpannya ke format Database JSON & TXT.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Ekstrak Link Katalog Undangan"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "downloads",
+    "clipboardWrite"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

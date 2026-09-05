@@ -1,0 +1,18 @@
+{
+	"id": "preset-default",
+	"name": "Preset Default (Blank White Starter)",
+	"version": "1.0.0",
+	"category": "Starter / Wireframe",
+	"description": "Preset kanvas putih bersih tanpa ornamen adat berat, ideal sebagai pondasi pembuatan template AI baru.",
+	"dock": {
+		"itemsVisible": 5,
+		"height": 74,
+		"distribution": "equal-20-percent"
+	},
+	"theme": {
+		"bg": "#ffffff",
+		"text": "#0f172a",
+		"accent": "#0f172a",
+		"border": "#e2e8f0"
+	}
+}

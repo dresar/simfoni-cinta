@@ -1,0 +1,67 @@
+{
+  "id": "preset-001",
+  "name": "Royal Traditional Batak Dock",
+  "version": "2.0.0",
+  "description": "Standard Master Preset with Separated Bottom Navigation Dock, 44px Uniform Floating Action Stack, and PowerPoint-Style Morph Slide Animations.",
+  "navigationDock": {
+    "height": 82,
+    "itemWidth": 66,
+    "itemHeight": 68,
+    "activeItemWidth": 76,
+    "activeItemHeight": 68,
+    "borderRadius": "20px",
+    "inactiveBorderRadius": "16px",
+    "containerPadding": "12px",
+    "itemGap": "8px",
+    "overflowScroll": true,
+    "autoCenter": true,
+    "prohibitedLayouts": ["flex-1-merged-bar", "squished-text-bar"]
+  },
+  "floatingStack": {
+    "buttonSize": 44,
+    "gap": 10,
+    "position": "top-right",
+    "actions": ["whatsapp", "qr", "audio", "autoplay"],
+    "isUniformCircle": true
+  },
+  "animations": {
+    "enableEntranceExit": true,
+    "transitionType": "morph-lateral-slide",
+    "transitionDurationMs": 450,
+    "timingFunction": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "prohibitedAnimations": [
+      "scale-from-small-to-big",
+      "zoom-in-fade",
+      "scale-up"
+    ],
+    "mandatoryMotion": "lateral-slide-from-left-right-to-center",
+    "imageTransitions": {
+      "groomPhoto": "slide-from-left",
+      "bridePhoto": "slide-from-right",
+      "couplePhoto": "slide-from-left",
+      "venuePhoto": "slide-from-left",
+      "galleryGrid": "staggered-lateral-slide",
+      "akadCard": "slide-from-left",
+      "resepsiCard": "slide-from-right",
+      "mapCard": "slide-from-right"
+    },
+    "swayMotion": {
+      "enableSway": true,
+      "intensity": "normal",
+      "targetElements": ["frameTopLeft", "frameTopRight", "characterIllustration"]
+    }
+  },
+  "slides": [
+    { "key": "cover", "label": "Cover" },
+    { "key": "opening", "label": "Opening" },
+    { "key": "couple", "label": "Mempelai" },
+    { "key": "quotes", "label": "Quotes" },
+    { "key": "gallery", "label": "Gallery" },
+    { "key": "events", "label": "Acara" },
+    { "key": "countdown", "label": "Waktu" },
+    { "key": "location", "label": "Lokasi" },
+    { "key": "gifts", "label": "Amplop" },
+    { "key": "wishes", "label": "Ucapan" },
+    { "key": "closing", "label": "Doa" }
+  ]
+}

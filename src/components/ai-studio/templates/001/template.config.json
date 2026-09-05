@@ -1,0 +1,17 @@
+{
+  "id": "template-001",
+  "slug": "adat-batak",
+  "name": "Adat Batak Toba Eksklusif",
+  "category": "Tradisional Adat",
+  "presetId": "preset-001",
+  "version": "2.0.0",
+  "description": "Template digital wedding adat Batak Toba eksklusif dengan ornamen gorga, motif ulos, fixed dock navigation, dan morph animations.",
+  "sourceReference": "public/demo/adat-batak",
+  "animationConfig": {
+    "enableSway": true,
+    "swayIntensity": "normal",
+    "enableEntranceExit": true,
+    "transitionDurationMs": 450,
+    "forbiddenAnimations": ["zoom-in-fade", "scale-from-small-to-big"]
+  }
+}

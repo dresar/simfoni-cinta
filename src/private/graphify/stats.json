@@ -1,0 +1,264 @@
+{
+  "totalNodes": 612,
+  "totalEdges": 997,
+  "totalCommunities": 77,
+  "godNodes": [
+    {
+      "id": "src_lib_utils_cn",
+      "label": "cn()",
+      "degree": 235,
+      "sourceFile": "src/lib/utils.ts",
+      "community": "cn",
+      "fileType": "code"
+    },
+    {
+      "id": "package_dependencies",
+      "label": "dependencies",
+      "degree": 54,
+      "sourceFile": "package.json",
+      "community": "dependencies",
+      "fileType": "code"
+    },
+    {
+      "id": "src_lib_utils",
+      "label": "utils.ts",
+      "degree": 49,
+      "sourceFile": "src/lib/utils.ts",
+      "community": "utils.ts",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_landing_sections_b",
+      "label": "sections-b.tsx",
+      "degree": 46,
+      "sourceFile": "src/components/landing/sections-b.tsx",
+      "community": "sections-b.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_ui_sidebar",
+      "label": "sidebar.tsx",
+      "degree": 46,
+      "sourceFile": "src/components/ui/sidebar.tsx",
+      "community": "sidebar.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_landing_sections_a",
+      "label": "sections-a.tsx",
+      "degree": 33,
+      "sourceFile": "src/components/landing/sections-a.tsx",
+      "community": "sections-b.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_routes_index",
+      "label": "index.tsx",
+      "degree": 25,
+      "sourceFile": "src/routes/index.tsx",
+      "community": "sections-b.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_routetree_gen",
+      "label": "routeTree.gen.ts",
+      "degree": 22,
+      "sourceFile": "src/routeTree.gen.ts",
+      "community": "routeTree.gen.ts",
+      "fileType": "code"
+    },
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 22,
+      "sourceFile": "tsconfig.json",
+      "community": "compilerOptions",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_landing_icons",
+      "label": "icons.tsx",
+      "degree": 21,
+      "sourceFile": "src/components/landing/icons.tsx",
+      "community": "sections-b.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_ui_menubar",
+      "label": "menubar.tsx",
+      "degree": 18,
+      "sourceFile": "src/components/ui/menubar.tsx",
+      "community": "menubar.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "package_devdependencies",
+      "label": "devDependencies",
+      "degree": 18,
+      "sourceFile": "package.json",
+      "community": "devDependencies",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_ui_carousel",
+      "label": "carousel.tsx",
+      "degree": 17,
+      "sourceFile": "src/components/ui/carousel.tsx",
+      "community": "carousel.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_ui_form",
+      "label": "form.tsx",
+      "degree": 15,
+      "sourceFile": "src/components/ui/form.tsx",
+      "community": "form.tsx",
+      "fileType": "code"
+    },
+    {
+      "id": "src_components_ui_command",
+      "label": "command.tsx",
+      "degree": 13,
+      "sourceFile": "src/components/ui/command.tsx",
+      "community": "command.tsx",
+      "fileType": "code"
+    }
+  ],
+  "topCommunities": [
+    {
+      "name": "sections-b.tsx",
+      "count": 75,
+      "sampleNodes": [
+        "Template",
+        "RevealVariant",
+        "Hero()",
+        "IconArrowRight()",
+        "IconCalendar()"
+      ]
+    },
+    {
+      "name": "utils.ts",
+      "count": 49,
+      "sampleNodes": [
+        "BadgeProps",
+        "ButtonProps",
+        "PaginationLinkProps",
+        "AlertDialogFooter()",
+        "AlertDialogHeader()"
+      ]
+    },
+    {
+      "name": "devDependencies",
+      "count": 49,
+      "sampleNodes": [
+        "package.json",
+        "devDependencies",
+        "eslint",
+        "eslint-config-prettier",
+        "@eslint/js"
+      ]
+    },
+    {
+      "name": "sidebar.tsx",
+      "count": 38,
+      "sampleNodes": [
+        "SidebarContextProps",
+        "useSidebar()",
+        "Skeleton()",
+        "useIsMobile()",
+        "input.tsx"
+      ]
+    },
+    {
+      "name": "cn",
+      "count": 36,
+      "sampleNodes": [
+        "ContextMenuShortcut()",
+        "ResizableHandle()",
+        "ResizablePanelGroup()",
+        "cn()",
+        "avatar.tsx"
+      ]
+    },
+    {
+      "name": "compilerOptions",
+      "count": 32,
+      "sampleNodes": [
+        "tsconfig.json",
+        "compilerOptions",
+        "allowImportingTsExtensions",
+        "exactOptionalPropertyTypes",
+        "jsx"
+      ]
+    },
+    {
+      "name": "routeTree.gen.ts",
+      "count": 31,
+      "sampleNodes": [
+        "LovableErrorOptions",
+        "LovableEvents",
+        "Window",
+        "SitemapEntry",
+        "FileRoutesByFullPath"
+      ]
+    },
+    {
+      "name": "server.ts",
+      "count": 20,
+      "sampleNodes": [
+        "ServerEntry",
+        "consumeLastCapturedError()",
+        "describeError()",
+        "describeStatus()",
+        "isErrorLike()"
+      ]
+    },
+    {
+      "name": "components.json",
+      "count": 19,
+      "sampleNodes": [
+        "components.json",
+        "aliases",
+        "components",
+        "hooks",
+        "lib"
+      ]
+    },
+    {
+      "name": "menubar.tsx",
+      "count": 17,
+      "sampleNodes": [
+        "MenubarGroup()",
+        "MenubarMenu()",
+        "MenubarPortal()",
+        "MenubarRadioGroup()",
+        "MenubarShortcut()"
+      ]
+    },
+    {
+      "name": "command.tsx",
+      "count": 17,
+      "sampleNodes": [
+        "CommandDialog()",
+        "CommandShortcut()",
+        "DialogFooter()",
+        "DialogHeader()",
+        "command.tsx"
+      ]
+    },
+    {
+      "name": "form.tsx",
+      "count": 15,
+      "sampleNodes": [
+        "FormFieldContextValue",
+        "FormItemContextValue",
+        "FormField()",
+        "useFormField()",
+        "form.tsx"
+      ]
+    }
+  ],
+  "reportMarkdown": "# Graph Report - Front end  (2026-08-30)\r\n\r\n## Corpus Check\r\n- cluster-only mode — file stats not available\r\n\r\n## Summary\r\n- 612 nodes · 997 edges · 77 communities (29 shown, 48 thin omitted)\r\n- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.85)\r\n- Token cost: 0 input · 0 output\r\n\r\n## Community Hubs (Navigation)\r\n- sections-b.tsx\r\n- devDependencies\r\n- utils.ts\r\n- sidebar.tsx\r\n- cn\r\n- compilerOptions\r\n- routeTree.gen.ts\r\n- server.ts\r\n- components.json\r\n- command.tsx\r\n- menubar.tsx\r\n- form.tsx\r\n- carousel.tsx\r\n- dependencies\r\n- chart.tsx\r\n- dropdown-menu.tsx\r\n- sheet.tsx\r\n- table.tsx\r\n- breadcrumb.tsx\r\n- drawer.tsx\r\n- navigation-menu.tsx\r\n- card.tsx\r\n- toggle-group.tsx\r\n- alert.tsx\r\n- accordion.tsx\r\n- sonner.tsx\r\n- class-variance-authority\r\n- clsx\r\n- date-fns\r\n- embla-carousel-react\r\n- @hookform/resolvers\r\n- input-otp\r\n- @phosphor-icons/react\r\n- @radix-ui/react-accordion\r\n- @radix-ui/react-alert-dialog\r\n- @radix-ui/react-aspect-ratio\r\n- @radix-ui/react-checkbox\r\n- @radix-ui/react-collapsible\r\n- @radix-ui/react-context-menu\r\n- @radix-ui/react-dialog\r\n- @radix-ui/react-dropdown-menu\r\n- cmdk\r\n- @radix-ui/react-label\r\n- @radix-ui/react-menubar\r\n- @radix-ui/react-navigation-menu\r\n- @radix-ui/react-progress\r\n- @radix-ui/react-radio-group\r\n- @radix-ui/react-scroll-area\r\n- @radix-ui/react-select\r\n- @radix-ui/react-separator\r\n- @radix-ui/react-slot\r\n- @radix-ui/react-switch\r\n- @radix-ui/react-tabs\r\n- @radix-ui/react-toggle\r\n- @radix-ui/react-toggle-group\r\n- @radix-ui/react-tooltip\r\n- react\r\n- react-day-picker\r\n- react-hook-form\r\n- react-resizable-panels\r\n- recharts\r\n- sonner\r\n- tailwind-merge\r\n- tailwindcss\r\n- @tailwindcss/vite\r\n- @tanstack/react-query\r\n- @tanstack/react-router\r\n- @tanstack/react-start\r\n- @tanstack/router-plugin\r\n- tw-animate-css\r\n- vaul\r\n- vite-tsconfig-paths\r\n- zod\r\n\r\n## God Nodes (most connected - your core abstractions)\r\n1. `cn()` - 235 edges\r\n2. `compilerOptions` - 22 edges\r\n3. `buttonVariants` - 9 edges\r\n4. `scripts` - 7 edges\r\n5. `Reveal()` - 6 edges\r\n6. `renderErrorPage()` - 6 edges\r\n7. `Button` - 6 edges\r\n8. `aliases` - 6 edges\r\n9. `useFormField()` - 5 edges\r\n10. `useCarousel()` - 5 edges\r\n\r\n## Surprising Connections (you probably didn't know these)\r\n- `MenubarShortcut()` --calls--> `cn()`  [EXTRACTED]\r\n  src/components/ui/menubar.tsx → src/lib/utils.ts\r\n- `DropdownMenuShortcut()` --calls--> `cn()`  [EXTRACTED]\r\n  src/components/ui/dropdown-menu.tsx → src/lib/utils.ts\r\n- `SheetFooter()` --calls--> `cn()`  [EXTRACTED]\r\n  src/components/ui/sheet.tsx → src/lib/utils.ts\r\n- `BreadcrumbEllipsis()` --calls--> `cn()`  [EXTRACTED]\r\n  src/components/ui/breadcrumb.tsx → src/lib/utils.ts\r\n- `BreadcrumbSeparator()` --calls--> `cn()`  [EXTRACTED]\r\n  src/components/ui/breadcrumb.tsx → src/lib/utils.ts\r\n\r\n## Import Cycles\r\n- None detected.\r\n\r\n## Communities (77 total, 48 thin omitted)\r\n\r\n### Community 0 - \"sections-b.tsx\"\r\nCohesion: 0.05\r\nNodes (62): blogPosts, categories, comparison, faqs, featureGroups, navLinks, Template, templates (+54 more)\r\n\r\n### Community 1 - \"devDependencies\"\r\nCohesion: 0.04\r\nNodes (48): eslint, eslint-config-prettier, @eslint/js, eslint-plugin-prettier, eslint-plugin-react-hooks, eslint-plugin-react-refresh, globals, @lovable.dev/vite-tanstack-config (+40 more)\r\n\r\n### Community 2 - \"utils.ts\"\r\nCohesion: 0.05\r\nNodes (35): AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter(), AlertDialogHeader(), AlertDialogOverlay, AlertDialogTitle (+27 more)\r\n\r\n### Community 3 - \"sidebar.tsx\"\r\nCohesion: 0.07\r\nNodes (32): Input, Separator, Sidebar, SidebarContent, SidebarContext, SidebarContextProps, SidebarFooter, SidebarGroup (+24 more)\r\n\r\n### Community 4 - \"cn\"\r\nCohesion: 0.10\r\nNodes (29): Avatar, AvatarFallback, AvatarImage, ContextMenuCheckboxItem, ContextMenuContent, ContextMenuItem, ContextMenuLabel, ContextMenuRadioItem (+21 more)\r\n\r\n### Community 5 - \"compilerOptions\"\r\nCohesion: 0.06\r\nNodes (31): DOM, DOM.Iterable, ES2022, eslint.config.js, src/**/*.ts, src/**/*.tsx, vite/client, vite.config.ts (+23 more)\r\n\r\n### Community 6 - \"routeTree.gen.ts\"\r\nCohesion: 0.09\r\nNodes (23): LovableErrorOptions, LovableEvents, reportLovableError(), Window, getRouter(), Route, ErrorComponent(), Route (+15 more)\r\n\r\n### Community 7 - \"server.ts\"\r\nCohesion: 0.16\r\nNodes (13): consumeLastCapturedError(), describeError(), describeStatus(), originalConsoleError, safeStringify(), renderErrorPage(), fetch(), getServerEntry() (+5 more)\r\n\r\n### Community 8 - \"components.json\"\r\nCohesion: 0.11\r\nNodes (18): aliases, components, hooks, lib, ui, utils, iconLibrary, registries (+10 more)\r\n\r\n### Community 9 - \"command.tsx\"\r\nCohesion: 0.12\r\nNodes (14): Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList, CommandSeparator, CommandShortcut() (+6 more)\r\n\r\n### Community 10 - \"menubar.tsx\"\r\nCohesion: 0.12\r\nNodes (11): Menubar, MenubarCheckboxItem, MenubarContent, MenubarItem, MenubarLabel, MenubarRadioItem, MenubarSeparator, MenubarShortcut() (+3 more)\r\n\r\n### Community 11 - \"form.tsx\"\r\nCohesion: 0.19\r\nNodes (12): FormControl, FormDescription, FormFieldContext, FormFieldContextValue, FormItem, FormItemContext, FormItemContextValue, FormLabel (+4 more)\r\n\r\n### Community 12 - \"carousel.tsx\"\r\nCohesion: 0.19\r\nNodes (13): Carousel, CarouselApi, CarouselContent, CarouselContext, CarouselContextProps, CarouselItem, CarouselNext, CarouselOptions (+5 more)\r\n\r\n### Community 13 - \"dependencies\"\r\nCohesion: 0.15\r\nNodes (13): lucide-react, dependencies, lucide-react, @radix-ui/react-avatar, @radix-ui/react-hover-card, @radix-ui/react-popover, @radix-ui/react-slider, react-dom (+5 more)\r\n\r\n### Community 14 - \"chart.tsx\"\r\nCohesion: 0.25\r\nNodes (9): ChartConfig, ChartContainer, ChartContext, ChartContextProps, ChartLegendContent, ChartTooltipContent, getPayloadConfigFromPayload(), THEMES (+1 more)\r\n\r\n### Community 15 - \"dropdown-menu.tsx\"\r\nCohesion: 0.20\r\nNodes (9): DropdownMenuCheckboxItem, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuRadioItem, DropdownMenuSeparator, DropdownMenuShortcut(), DropdownMenuSubContent (+1 more)\r\n\r\n### Community 16 - \"sheet.tsx\"\r\nCohesion: 0.25\r\nNodes (8): SheetContent, SheetContentProps, SheetDescription, SheetFooter(), SheetHeader(), SheetOverlay, SheetTitle, sheetVariants\r\n\r\n### Community 17 - \"table.tsx\"\r\nCohesion: 0.22\r\nNodes (8): Table, TableBody, TableCaption, TableCell, TableFooter, TableHead, TableHeader, TableRow\r\n\r\n### Community 18 - \"breadcrumb.tsx\"\r\nCohesion: 0.25\r\nNodes (7): Breadcrumb, BreadcrumbEllipsis(), BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator()\r\n\r\n### Community 19 - \"drawer.tsx\"\r\nCohesion: 0.25\r\nNodes (6): DrawerContent, DrawerDescription, DrawerFooter(), DrawerHeader(), DrawerOverlay, DrawerTitle\r\n\r\n### Community 20 - \"navigation-menu.tsx\"\r\nCohesion: 0.29\r\nNodes (7): NavigationMenu, NavigationMenuContent, NavigationMenuIndicator, NavigationMenuList, NavigationMenuTrigger, navigationMenuTriggerStyle, NavigationMenuViewport\r\n\r\n### Community 21 - \"card.tsx\"\r\nCohesion: 0.29\r\nNodes (6): Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle\r\n\r\n### Community 22 - \"toggle-group.tsx\"\r\nCohesion: 0.43\r\nNodes (5): ToggleGroup, ToggleGroupContext, ToggleGroupItem, Toggle, toggleVariants\r\n\r\n### Community 23 - \"alert.tsx\"\r\nCohesion: 0.50\r\nNodes (4): Alert, AlertDescription, AlertTitle, alertVariants\r\n\r\n### Community 24 - \"accordion.tsx\"\r\nCohesion: 0.50\r\nNodes (3): AccordionContent, AccordionItem, AccordionTrigger\r\n\r\n## Knowledge Gaps\r\n- **179 isolated node(s):** `Template`, `RevealVariant`, `FormFieldContextValue`, `FormItemContextValue`, `CarouselApi` (+174 more)\r\n  These have ≤1 connection - possible missing edges or undocumented components.\r\n- **48 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.\r\n\r\n## Suggested Questions\r\n_Questions this graph is uniquely positioned to answer:_\r\n\r\n- **Why does `cn()` connect `cn` to `sections-b.tsx`, `utils.ts`, `sidebar.tsx`, `command.tsx`, `menubar.tsx`, `form.tsx`, `carousel.tsx`, `chart.tsx`, `dropdown-menu.tsx`, `sheet.tsx`, `table.tsx`, `breadcrumb.tsx`, `drawer.tsx`, `navigation-menu.tsx`, `card.tsx`, `toggle-group.tsx`, `alert.tsx`, `accordion.tsx`?**\r\n  _High betweenness centrality (0.340) - this node is a cross-community bridge._\r\n- **Why does `dependencies` connect `dependencies` to `devDependencies`, `class-variance-authority`, `clsx`, `date-fns`, `embla-carousel-react`, `@hookform/resolvers`, `input-otp`, `@phosphor-icons/react`, `@radix-ui/react-accordion`, `@radix-ui/react-alert-dialog`, `@radix-ui/react-aspect-ratio`, `@radix-ui/react-checkbox`, `@radix-ui/react-collapsible`, `@radix-ui/react-context-menu`, `@radix-ui/react-dialog`, `@radix-ui/react-dropdown-menu`, `cmdk`, `@radix-ui/react-label`, `@radix-ui/react-menubar`, `@radix-ui/react-navigation-menu`, `@radix-ui/react-progress`, `@radix-ui/react-radio-group`, `@radix-ui/react-scroll-area`, `@radix-ui/react-select`, `@radix-ui/react-separator`, `@radix-ui/react-slot`, `@radix-ui/react-switch`, `@radix-ui/react-tabs`, `@radix-ui/react-toggle`, `@radix-ui/react-toggle-group`, `@radix-ui/react-tooltip`, `react`, `react-day-picker`, `react-hook-form`, `react-resizable-panels`, `recharts`, `sonner`, `tailwind-merge`, `tailwindcss`, `@tailwindcss/vite`, `@tanstack/react-query`, `@tanstack/react-router`, `@tanstack/react-start`, `@tanstack/router-plugin`, `tw-animate-css`, `vaul`, `vite-tsconfig-paths`, `zod`?**\r\n  _High betweenness centrality (0.057) - this node is a cross-community bridge._\r\n- **What connects `Template`, `RevealVariant`, `FormFieldContextValue` to the rest of the system?**\r\n  _179 weakly-connected nodes found - possible documentation gaps or missing edges._\r\n- **Should `sections-b.tsx` be split into smaller, more focused modules?**\r\n  _Cohesion score 0.05081081081081081 - nodes in this community are weakly interconnected._\r\n- **Should `devDependencies` be split into smaller, more focused modules?**\r\n  _Cohesion score 0.04081632653061224 - nodes in this community are weakly interconnected._\r\n- **Should `utils.ts` be split into smaller, more focused modules?**\r\n  _Cohesion score 0.05357142857142857 - nodes in this community are weakly interconnected._\r\n- **Should `sidebar.tsx` be split into smaller, more focused modules?**\r\n  _Cohesion score 0.06827880512091039 - nodes in this community are weakly interconnected._",
+  "lastUpdated": "2026-09-04T12:35:10.188Z",
+  "engine": "Graphify AST Engine v0.9.50"
+}

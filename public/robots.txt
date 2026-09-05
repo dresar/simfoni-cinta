@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+Allow: /demo
+Allow: /berita
+Allow: /berita/*
+Allow: /login
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /pricing.md
+Disallow: /admin
+Disallow: /admin/*
+Disallow: /dasbor
+Disallow: /dasbor/*
+Disallow: /api
+Disallow: /api/*
+
+# AI Search Engine Crawlers & Retrieval Bots
+User-agent: GPTBot
+Allow: /
+Disallow: /admin
+Disallow: /dasbor
+Disallow: /api
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin
+Disallow: /dasbor
+Disallow: /api
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin
+Disallow: /dasbor
+Disallow: /api
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+Sitemap: https://simfonicinta.my.id/sitemap.xml

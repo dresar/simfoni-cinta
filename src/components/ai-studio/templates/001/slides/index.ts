@@ -1,0 +1,11 @@
+export { CoverSlide } from "./CoverSlide";
+export { OpeningSlide } from "./OpeningSlide";
+export { CoupleSlide } from "./CoupleSlide";
+export { QuotesSlide } from "./QuotesSlide";
+export { EventsSlide } from "./EventsSlide";
+export { CountdownSlide } from "./CountdownSlide";
+export { LocationSlide } from "./LocationSlide";
+export { GallerySlide } from "./GallerySlide";
+export { GiftsSlide } from "./GiftsSlide";
+export { WishesSlide } from "./WishesSlide";
+export { ClosingSlide } from "./ClosingSlide";

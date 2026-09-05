@@ -1,0 +1,26 @@
+/*
+      www.OnlineWebFonts.Com 
+      You must credit the author Copy this link on your web 
+      <div>Font made from <a href="http://www.onlinewebfonts.com/fonts">Web Fonts</a>is licensed by CC BY 4.0</div>
+      OR
+      <a href="http://www.onlinewebfonts.com/fonts">Web Fonts</a>
+
+      CSS rules to specify fonts
+
+      font-family: "Pinyon Script";;
+
+*/
+
+@font-face{
+    font-family: "Pinyon Script";
+    src: url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.eot");
+    src: url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/3dd71ea4dcfd50409aff4cf3043de5d4.svg#Pinyon Script")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+ 

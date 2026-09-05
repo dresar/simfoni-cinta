@@ -1,0 +1,76 @@
+import type { InvitationData } from "../../types";
+
+export const DEFAULT_BLANK_DATA: InvitationData = {
+	title: "The Wedding of",
+	slug: "default-blank",
+	guestGreetingPrefix: "Kepada Yth;",
+	guestGreetingSub: "Bapak/Ibu/Saudara/i",
+	guestName: "Nama Tamu Undangan",
+	guestGroup: "Tamu Kehormatan",
+	openButtonText: "Buka Undangan",
+	weddingDateFormatted: "Sabtu, 28 Oktober 2026",
+	countdownTargetIso: "2026-10-28T09:00:00.000Z",
+	sacredQuoteText: "Teks kutipan ayat suci atau kata mutiara pernikahan akan tampil di area placeholder ini.",
+	sacredQuoteSource: "Kutipan Pernikahan",
+	loveQuoteText: "Dua hati yang bersatu dalam cinta dan komitmen suci.",
+	loveQuoteAuthor: "Mempelai",
+	respectGreeting: "Assalamu'alaikum Wr. Wb. / Salam Sejahtera",
+	contactWhatsappNumber: "6281234567890",
+	couple: {
+		groomName: "Nama Pria",
+		groomFullName: "Nama Lengkap Mempelai Pria, S.T.",
+		groomFather: "Nama Ayah Pria",
+		groomMother: "Nama Ibu Pria",
+		groomInstagram: "mempelai_pria",
+		brideName: "Nama Wanita",
+		brideFullName: "Nama Lengkap Mempelai Wanita, S.Kom.",
+		brideFather: "Nama Ayah Wanita",
+		brideMother: "Nama Ibu Wanita",
+		brideInstagram: "mempelai_wanita",
+	},
+	akad: {
+		title: "Akad Nikah / Pemberkatan",
+		dayDate: "Sabtu, 28 Oktober 2026",
+		timeWindow: "08:00 - 10:00 WIB",
+		venueName: "Nama Gedung / Tempat Acara",
+		address: "Jl. Alamat Lokasi Acara Lengkap No. 123, Kota",
+		mapsUrl: "https://maps.google.com",
+	},
+	resepsi: {
+		title: "Resepsi Pernikahan",
+		dayDate: "Sabtu, 28 Oktober 2026",
+		timeWindow: "11:00 - 14:00 WIB",
+		venueName: "Grand Ballroom Tempat Acara",
+		address: "Jl. Alamat Lokasi Acara Lengkap No. 123, Kota",
+		mapsUrl: "https://maps.google.com",
+	},
+	timeline: [
+		{
+			year: "2022",
+			title: "Pertemuan Pertama",
+			story: "Awal mula perkenalan yang menumbuhkan rasa saling percaya.",
+		},
+		{
+			year: "2025",
+			title: "Lamaran",
+			story: "Mengikat janji bersama keluarga besar menuju jenjang pernikahan.",
+		},
+	],
+	banks: [
+		{
+			bankId: "bank-1",
+			bankName: "BCA",
+			accountNumber: "1234567890",
+			accountHolder: "Nama Pemilik Rekening",
+		},
+	],
+	greetings: [
+		{
+			id: "greet-1",
+			name: "Sahabat Terdekat",
+			presence: "Hadir",
+			message: "Selamat atas pernikahannya! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah.",
+			createdAt: "10 menit yang lalu",
+		},
+	],
+};
